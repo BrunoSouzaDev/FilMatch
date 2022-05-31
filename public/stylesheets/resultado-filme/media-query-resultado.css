@@ -1,6 +1,7 @@
 @media screen and (max-width: 480px){
     .main__resultado{
         flex-direction: column;
+        height: 160rem;
     }
 
     .poster__resultado{
@@ -10,16 +11,16 @@
     .sinopse{
         height: 22rem ;
         margin-left: 1rem;
-        width: 25rem !important;
+        width: 23rem !important;
     }
 
     .proximas__sessoes{
-        margin-left: 1rem;
-        width: 26rem !important;
+       
+        width: 23rem !important;
     }
 
     .proxima__sessao{
-        width: 18rem;
+        width: 18rem !important;
     }
 
     .botao__sessoes{
@@ -35,7 +36,6 @@
 
     .forum__resultado{
         height: 52rem !important;
-        margin-left: 1rem;
-        width: 26rem !important;
+        width: 23rem !important;
     }
 }

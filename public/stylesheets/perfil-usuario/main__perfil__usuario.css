@@ -7,8 +7,12 @@
 }
 
 @media screen and (max-width: 480px){
+    .main__painel__usuario{
+        height: fit-content;
+    }
+    
     .configuracoes{
-        display: contents;
+        display: none;
     }
 
     .link__config p{
@@ -19,9 +23,10 @@
         flex-direction: column;
     }
     .editar__configuracoes{
-        height: 40rem !important;
-        margin-bottom: 6.1rem;
-        width: 43vh !important;
+        margin-top: 1rem;
+        margin-bottom: 3rem !important;
+        height: 43rem !important;
+        width: 50vh !important;
     }
     .input__config{
         width: 20rem !important;

@@ -4,11 +4,10 @@
     display: flex;
     flex-direction: column;
     height:41.5rem;
-    margin: 10rem 0 0 3rem;
+    margin: 3rem 0 0 3rem;
     padding: 1rem;
     justify-content: space-between;
     width: 37rem;
-    
 }
 
 .atividades__forum{

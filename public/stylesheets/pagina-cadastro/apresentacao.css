@@ -10,7 +10,7 @@
 
 .apresentacao__titulo {
   font-weight: 700;
-  font-size: 3rem;
+  font-size: 2rem;
   margin-left: 2rem;
   margin-bottom: 0%;
   text-transform: none;
@@ -30,7 +30,7 @@
 
 .poster {
   padding: 0;
-  padding-left: 3rem;
+  padding-left: 2rem;
+  height: 22rem;
   width: 31rem;
-  height: 31rem;
 }

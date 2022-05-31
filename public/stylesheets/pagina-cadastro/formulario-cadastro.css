@@ -1,10 +1,10 @@
 .formulario__cadastro {
   background: rgba(196, 196, 196, 0.1);
   border-radius: 0.5rem;
-  height: 55rem;
+  height: 43rem;
   padding: 1rem;
   width: 32rem;
-  margin-top: 7.5rem;
+  margin-top: 5rem;
 }
 
 .cadastro {
@@ -14,11 +14,11 @@
 .input__cadastro {
   background-color: #484848cc;
   width: 29rem;
-  height: 1.767rem;
+  height: 1.7rem;
   border: none;
   border-radius: 5px;
   color: white;
-  margin-bottom: 20px;
+  margin-bottom: -1rem;
 }
 
 .input__nascimento {
