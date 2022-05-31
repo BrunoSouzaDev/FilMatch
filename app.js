@@ -8,15 +8,13 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var suporteRouter = require('./routes/suporte');
 var moviesRouter = require('./routes/movies');
-var sobrenosRouter = require('./routes/sobrenos');
+var sobreNosRouter = require('./routes/sobreNos');
 var cadastroRouter = require('./routes/cadastroRouter')
 var resultadoFilmeRouter = require('./routes/resultadoFilme')
 var homeForum = require('./routes/homeForum')
 var criarSessao = require('./routes/criarSessao')
 var perfil = require ('./routes/perfil')
 var perfilUsuario = require('./routes/perfilUsuario')
-var resultadoBusca = require('./routes/resultadoBusca')
-
 
 var app = express();
 
@@ -38,10 +36,9 @@ app.use('/criarsessao', criarSessao)
 app.use('/users', usersRouter);
 app.use('/suporte', suporteRouter);
 app.use('/movies', moviesRouter);
-app.use('/sobrenos', sobrenosRouter);
+app.use('/sobrenos', sobreNosRouter);
 app.use('/perfil' , perfil)
 app.use('/perfilusuario', perfilUsuario)
-app.use('/resultadobusca', resultadoBusca)
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

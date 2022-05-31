@@ -1,0 +1,102 @@
+/*CSS SESSÃOCRIADA*/
+
+.mainSessaoCriada{
+    display: flex;
+    justify-content: center;
+  }
+  .sessaoCriada{
+    width: 800px;
+    height: 800px;
+    background: rgba(196, 196, 196, 0.1);
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    justify-content: center;
+  }
+  .formataçaoPagina{
+    display: flex;
+  }
+  .sessaoCriada p{
+    margin-top: 10px;
+  }
+  
+  .sessaoCriada p, h2{
+    
+    margin-left: 30px;
+  }
+  
+  .inputSessaoCriada{
+    width: 450px;
+    height: 24px;
+    background-color: #2d2d2d;
+    color: #f5f4f3; 
+    border: none;
+    border-radius: 5px;
+  }
+  
+  #inputDescricaoSessaoCriada{
+    width: 450px;
+    height: 95px;
+    background-color: #2d2d2d;
+    color: #f5f4f3; 
+    border: none;
+  }
+  
+  .inputDate{
+    width: 68px;
+    height: 30px;
+    background-color: #2d2d2d;
+    color: #f5f4f3; 
+    border: none;
+    border-radius: 5px;
+    margin-left: 30px;
+  }
+  
+  .inputSessaoCriada2{
+    display: flex;
+    align-items: center;
+  }
+  
+  #buttonAdicionar{
+    width: 110px;
+    height: 30px;
+    background-color:#BC0000CC;
+    border: none;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  
+  .sessaoCriada img{
+    margin-left: 20px;
+  }
+  .sessaoCriada button{
+    margin-left: 250px;
+    margin-top: 10px;
+  }
+  @media (min-width: 428px) and (max-width:500px){
+    .sessaoCriada{
+      width: 400px;
+    }
+  
+    .inputSessaoCriada{
+      width: 380px;
+      margin-left: 10px;
+    }
+  
+    #inputDescricaoSessaoCriada{
+      width: 380px;
+      margin-left: 10px;
+    }
+  
+    .sessaoCriada button{
+      margin-left: 130px;
+    }
+  }
+        #manhattan{
+         margin-top: 125px;
+        padding-left: 27px;
+        }
+        

@@ -1,0 +1,100 @@
+<%-include('./partials/head')%>
+
+<body>
+  <%-include('./partials/header')%>
+
+  <main class="mainSessaoCriada">
+    <section class="sessaoCriada">
+      <h2>Sessão</h2>
+      <div class="formataçaoPagina">
+        <form action="">
+          <p>Titulo da sessão</p>
+          <div>
+            <input
+              class="inputSessaoCriada"
+              type="text"
+              value="Titulo do filme"
+            />
+          </div>
+          <p>Descrição</p>
+          <div>
+            <input type="text" name="" id="inputDescricaoSessaoCriada" />
+          </div>
+          <p>Data</p>
+          <div class="inputSessaoCriada2">
+            <input class="inputDate" type="date" />
+            <p>Horário</p>
+            <input class="inputDate" type="time" />
+            <p>Duração</p>
+            <input class="inputDate" type="time" />
+          </div>
+          <p>Local</p>
+          <div>
+            <input
+              class="inputSessaoCriada"
+              type="text"
+              value="Localização da sua sessão"
+            />
+          </div>
+          <div></div>
+          <p>Convidados</p>
+
+          <div>
+            <div class="iconeUsuario">
+              <img
+                src="/images/Imagens-criacao-de-sessao/usuarioSessao.svg"
+                alt="icone usuario"
+              />
+              <img
+                src="/images/Imagens-criacao-de-sessao/usuarioSessao.svg"
+                alt="icone usuario"
+              />
+              <img
+                src="/images/Imagens-criacao-de-sessao/usuarioSessao.svg"
+                alt="icone usuario"
+              />
+              <img
+                src="/images/Imagens-criacao-de-sessao/usuarioSessao.svg"
+                alt="icone usuario"
+              />
+            </div>
+          </div>
+
+          <p>Compartilhar</p>
+          <div>
+            <input
+              class="inputSessaoCriada"
+              type="text"
+              value="Link da sua sessão"
+            />
+          </div>
+          <div></div>
+
+          <p>Servidor do Discord</p>
+          <div>
+            <input
+              class="inputSessaoCriada"
+              type="text"
+              value="Link para o Discord"
+            />
+          </div>
+          <div></div>
+
+          <button class="btn" type="submit">
+            <strong>Voltar a Home</strong>
+          </button>
+        </form>
+
+        <div>
+          <img
+            id="manhattan"
+            src="/images/imagens-sessao-criada/Manhattan 1.svg"
+            alt="poster Manhattan"
+          />
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <%-include('./partials/footer')%>
+</body>
